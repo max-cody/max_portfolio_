@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<head>
+<meta charset="UTF-8">
+<html lang= "en">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <h1 id="title"> Survey Form</h1>
+    <p id="description"> This is a short form for me to send you unnecessary spam and to sell your email.</p>
+    <form id="survey-form">
+     <fieldset>
+     <label for="name" id="name-label">Enter your name: <input id="name" name="name" type="text" required placeholder="Enter your name" /> </label>
+       <label for="email" id="email-label">Enter your email: <input id="email" name="email" type="email" required placeholder="Enter your email"/></label>
+       <label for="age" id="number-label" >Enter your age: <input id="number" name="age" type="number"  min="13" max="120"required placeholder="Enter your age"/>
+      
+       <select id="dropdown">
+         <option value="">(select one)</option>
+            <option value="1">student</option>
+            <option value="2">part-time</option>
+            <option value="3">full-time</option>
+            <option value="4">unemployed</option> 
+</select><label id="email-account"> Is this a personal or business email?
+
+<label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" value="1" /> Personal Account</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" value="1" /> Business Account</label>
+        
+        
+        
+        
+        
+        body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #11F4EA
+;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;}
+
+  form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
