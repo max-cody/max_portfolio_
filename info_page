@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head> <link rel="stylesheet" href="styles.css">
+</head>  
+<body>
+<main id="main">
+  <h1 id="title">Field Marshal Bernerd Montgomery</h1>
+  <p>The most famous british commander of the 20th century</p>
+  <figure id="img-div">
+    <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Field_Marshal_Sir_Bernard_Montgomery%2C_1944_TR2721.jpg/594px-Field_Marshal_Sir_Bernard_Montgomery%2C_1944_TR2721.jpg?20171004202101" alt="Field Marshal MOntgomery during operation Market Garden">
+    <figcaption id="img-caption">
+      Field Marshal Montgomery during operation Market Garden</figcaption>
+      </figure>
+      <section id="tribute info">
+        <h3 id="headline">The career of Bernard Montgomery:</h3>
+        <ul>
+          <li>
+          <strong>1908</strong>
+          -He was comissioned into the royal warwickshire regiment as a second lieutenent.</li>
+          <li>
+            <strong>1914</strong>
+            Saw his first action at the battle of Le Cateau during the retreat from Mons. During the Allied counter-offensive he was shot through the right lung and left knee, and was awared the Distinguished Service order.
+</li>
+<li>
+            <strong>1915</strong>
+            He was appointed brigade Major of 112th brigade.</li>
+          <li><strong>1917</strong> Montgomery served in the battle of Passchendale in late 1917 before finishing the war as a chief of staff to the 47th London division.</li>
+          <li>
+            <strong>1921</strong>
+            During the final stages of the irish war of independence Montgomery carried out a contraversial counter insurgency campaign which lead to civilian deaths and villages being burnt</li>
+            <li><strong>1939</strong>Joined the British Expeditionary force
+
+        </section>
