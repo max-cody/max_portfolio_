@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head> <link rel="stylesheet" href="styles.css">
+</head>  
+<body>
+<main id="main">
+  <h1 id="title" >Field Marshal Bernerd Montgomery</h1>
+  <p>The most famous british commander of the 20th century</p>
+  <figure id="img-div">
+    <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Field_Marshal_Sir_Bernard_Montgomery%2C_1944_TR2721.jpg/594px-Field_Marshal_Sir_Bernard_Montgomery%2C_1944_TR2721.jpg?20171004202101" alt="Field Marshal MOntgomery during operation Market Garden">
+    <figcaption id="img-caption">
+      Field Marshal Montgomery during operation Market Garden</figcaption>
+      </figure>
+      <section id="tribute info">
+        <h3 id="headline">The career of Bernard Montgomery:</h3>
+        <ul>
+          <li>
+          <strong>1908</strong>
+          -He was comissioned into the royal warwickshire regiment as a second lieutenent.</li>
+          <li>
+            <strong>1914</strong>
+            Saw his first action at the battle of Le Cateau during the retreat from Mons. During the Allied counter-offensive he was shot through the right lung and left knee, and was awared the Distinguished Service order.
+</li>
+<li>
+            <strong>1915</strong>
+            He was appointed brigade Major of 112th brigade.</li>
+          <li><strong>1917</strong> Montgomery served in the battle of Passchendale in late 1917 before finishing the war as a chief of staff to the 47th London division.</li>
+          <li>
+            <strong>1921</strong>
+            During the final stages of the irish war of independence Montgomery carried out a contraversial counter insurgency campaign which lead to civilian deaths and villages being burnt</li>
+            <li><strong>1939</strong>Joined the British Expeditionary force and fought in france during the disastrous campaign and evacuation at dunkirk, 330,000 of personnel of the BEF was safely evacuated they had to abandon significant stockpiles of weapons and vehicles</li>
+            <li><strong>1940</strong> Upon returning to england there was a significant political fallout within the war office and parliment over the disaster, Montgomery was relegated to divisional command of the 3rd division. During this time he was made a companion in the order of the bath which was an ancient knightly order dating back to the middle ages. During this year numerous smaller invasions of cork in ireland and Cape Verde, there was a wrry the irish would side with the axis forces and allow troops into ireland.</li>
+            <li><strong>1941</strong>During this year he became the commander of the forces in kent, due to the immediate strategic threat of a seaborne invasion from the axis powers over 100,000 troops were stationed in kent,sussex and surrey. These troops became the most drilled and disciplined troops in the UK. During this time the Commandos were stood up and began raids in norway and mainland france.</li>
+            <li><strong>1942</strong> A new field commander was required for the middle east theatre. The british empire had a strong presence in Iraq, mesopotamia, the Sinai peninsular and egypt. The italians who had invaded Abyssinia declared war on the british in hopes of an early victory and surrender. The commonwealth troops had pushed the Italians to breaking point during operation compass. A the the second battle of El alamein Montgomery broke the back of the german Afrika Korps and the remnants of the Italian army and forced their retreat into Tunisia. Operation torch occurred in november 1942 and was the first engagement by american forces against the Axis powers, the encircle several hundred thousand Afrika Korp troops trying to retreat to Italy.
+            <li><strong>1943</strong> In early may the axis forces in north africa surrendered, this prompted the allies to continue the push into italy itself. During the summer of 1943 the 8th army led by Montgomery landed at Syracuse and secured in just over a month. In september the allied invasion of mainland italy began with operations baytown and british paratroopers landing at taranto.The invasion faced numerous coordiation problems as well as generals working at crossed purposes. Montgomery left the theatre on the 23rd of decemberto return to england.
+        </li>
+        <li><strong>1944</strong>Upon returning to Britain Montgomery began planning operation Overlord alongside general Eisenhower and general Athur Tedder. This invasion began on the sixth of june and committed 1.5 million troops from a coalition of 13 countries, by late august this number and swelled to just over 2 million fighting men moving across france. Montgomery faced Erwin Rommel a second time at the battle of caen. The plan was to draw the german Panzers into a drawn out engagement whilst the americans further west break out and make for Paris. On july 7 operation charnwood began with a carpet bombing of the city of Caen and the surrounding countryside. 3 divisions totalling 700 tanks were loosed on the city. The French resistance had played a pivotal role in their small way called plan violet where they cut and destroyed much of the telephone infrastructure in france leading to the Nazi high command having to use enigma which had been cracked. Caen was captured on august 6th and allowed the commonwealth forces to breakout of normandy and begin the pushto the rhine.
+        During this time more troops came in who were american and overall command was removed from Montgomery and given to Eisenhower. Montgomery was given command of the newly minted paratroopers and operation market garden took place on 17th of september to create a 100km salient into german territory to outflank the sigfried line and secure a bridgehead to over the river rhine, overall the operation failed to be the strategic breakthrough.</li>
+        <li><strong>1945</strong> In febuary Montgomery's troops advanced to the rhine and crossed in march in operation plunder and met up with the U.S. first army encircling 370,000 german soldiers, by the end of april Montgomery had secured much of northern Germany, Denmark and the Netherlands. On the 4th of may he accepted the surrender of the German northern forces at Lüneburg Heath.
+        </li>
+        <li><strong> Post war</strong>
+        After the Nazi defeat Montgomery became commander of the British army of the Rhine (BAOR) and the served in the newly formed nato alliance until he retired in 1958. He visited Egyptian commanders in 1967 and dicussed military tactics, telling them that they would lose a war with Israel if they attacked. He was proved right as the six day war took place 3 weeks later. 
+        </li>
+        </ul>
+        <blockquote cite="https://www.brainyquote.com/quotes/bernard_law_montgomery_143741">
+<p>" "Every soldier must know, before he goes into battle, how the little battle he is to fight fits into the larger picture, and how the success of his fighting will influence the battle as a whole" ".
+  </p>
+  <cite>--Sir General Bernard Montgomery</1945>
+  </blockquote>
+<p> Despite his pivotal role in the second world war Montgomery still remains a contraversial figure in a dark chapter in british history.
+  <h3>
+    "If you have time you can read his full career on his"
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Bernard_Montgomery" target="_blank">Wikipedia entry </a>
+    ".
+    </h3>"
+</section>
+</main>
+</body>
+</html>
+
+
+
+
+
+
+element.style {
+}
+html {
+    font-size: 10px;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+#tribute-info{ font-size: 20px;}
