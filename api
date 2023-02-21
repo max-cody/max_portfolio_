@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+ const name = document.getElementById("name");
+const eyecolor = document.getElementById("eyecolor");
+const birthyear = document.getElementById("birthyear");
+const button = document.querySelector(".getRandomCharacter");
+     button.addEventListener('click', (e) => {
+    e.preventDefault()
+     const randomNumber = Math.ceil(Math.random() * 83)
+     fetch('https://swapi.dev/api/people/${randomNumber}/')
+     .then(response => response.json())
+     .then(character => {
+       
+       name.innerHTML = character['name'];
+       eyecolor.innerHTML = character['eye_color'];
+       birth_year.innerHTML = Character['birth_year']
+
+
+     })
+    })
+ 
+    </script>
+    
+</body>
+</html>
